@@ -1,0 +1,247 @@
+body {
+    margin: 0px;
+    height: calc(100vh - 3px);
+    background: #F9F9F9;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #626262;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #626262;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.search-input {
+    width: 50%;
+    border-radius: 0px;
+}
+
+.search-input .ant-input {
+    color: #626262;
+    font-size: 12px!important;
+}
+
+.span-items {
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cart-item-icon {
+    color: white;
+    margin-right: 5px;
+    font-size: 17px;
+    position: relative;
+    top: 3px;
+}
+
+.cart-item-span {
+    color: white;
+    margin-right: 5px;
+    font-size: 14px;
+    display: inline-block;
+    width: 65px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.filter-header-area {
+    font-size: 11px;
+    color: #626262;
+    margin-bottom: 25px;
+}
+
+.filter-content-area {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 65%;
+    height: 130px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-content-area {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    height: 130px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background: white;
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.combobox-area {
+    max-height: 65%;
+    height: 65%;
+    width: 90%;
+    margin-top: 5px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-span {
+    color: #626262;
+    margin-left: 5px;
+    font-size: 12px;
+    display: inline-block;
+    width: 80%;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.item-container {
+    width: 100%;
+    height: 180px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    background: white;
+    border-radius: 5px;
+}
+
+.item-name {
+    font-weight: 500;
+    margin-top: 5px;
+    max-width: 100%;
+    color: black;
+    margin-right: 5px;
+    font-size: 14px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.add-to-cart {
+    width: 90%;
+    height: 24px;
+    background: rgb(43, 89, 254);
+    margin-top: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    transition: .3s;
+    border: none;
+}
+
+.add-to-cart:hover {
+    background: white;
+    color: rgb(43, 89, 254);
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid rgb(43, 89, 254);
+    transition: .3s;
+}
+
+.inc-dec-button {
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    background: #F3F4F6;
+    border-radius: 4px;
+    color: #626B8B;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.counter {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    background: #2A59FE;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.checkout-button {
+    border: none;
+    height: 32px;
+    cursor: pointer;
+    background: rgb(43, 89, 254);
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.checkout-button:hover {
+    border: 1px solid rgb(43, 89, 254);
+    background: white;
+    color: rgb(43, 89, 254);
+    transition: .3s;
+}
+
+.item-page-header {
+    font-size: 28px;
+    font-weight: 100;
+    margin-left: 15px;
+    color: #626262
+}
+
+.item-page-cost {
+    font-size: 25px;
+    margin-left: 15px;
+    color: rgb(43, 89, 254);
+}
+
+.item-page-description {
+    color: #626262;
+    margin-left: 15px;
+}
+
+.add-to-cart-button {
+    width: 90%;
+    height: 32px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: none;
+    background: rgb(43, 89, 254);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+    background: white;
+    color: rgb(43, 89, 254);
+    font-weight: 300;
+    cursor: pointer;
+    border: 1px solid rgb(43, 89, 254);
+    transition: .3s;
+}
