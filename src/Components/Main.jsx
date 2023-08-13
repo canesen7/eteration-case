@@ -42,16 +42,16 @@ const Main = () => {
                     items.push(item)
                     brands.add(item.brand)
                     models.add(item.model)
-
-                    let settedItems = {
-                        items: items,
-                        filteredItems: items,
-                        brands: Array.from(brands),
-                        models: Array.from(models)
-                    }
-
-                    setItems(settedItems)
                 }
+
+                let settedItems = {
+                    items: items,
+                    filteredItems: items,
+                    brands: Array.from(brands),
+                    models: Array.from(models)
+                }
+
+                setItems(settedItems)
             })
 
             let localStorageCart = localStorage.getItem("cart")
